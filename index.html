@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">BlockRealty <i class="fa-solid fa-cube"></i></div>
+        <ul class="nav-links">
+            <li><a href="#">Buy [128 emeralds upfront]</a></li>
+            <li><a href="#">Rent [6 emeralds per month]</a></li>
+            <li><a href="#">Sell [120 emeralds, 8 emerald decrease because used.]</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="property-card">
+            
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="" id="current-image" alt="Property View">
+                </div>
+                
+                <button id="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
+                
+                <div class="image-counter" id="image-counter">1 / 13</div>
+            </div>
+
+            <div class="property-info">
+                <div class="header-row">
+                    <div>
+                        <h1>The Ravine View Estate</h1>
+                        <p class="address"><i class="fa-solid fa-map-pin"></i> Coordinates will be sent to you through /w or Discord. </p>
+                    </div>
+                    <div class="price">
+                        <h2>64 <span class="currency">Emeralds. If renting must be 6 emeralds per month.</span></h2>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="stats-row">
+                    <div class="stat">
+                        <i class="fa-solid fa-bed"></i>
+                        <span>No Beds</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fa-solid fa-dungeon"></i>
+                        <span>Huge Space</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fa-solid fa-vector-square"></i>
+                        <span>6 Chunks</span>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <h3>Description</h3>
+                    <p>
+                        Stunning glass Ravine with a small Brick Chimney
+                        Glass Ceiling
+                        Fishing Pond
+                        Spans across 6 Chunks in a straight line
+                        
+                    </p>
+                </div>
+
+                <button class="contact-btn">Message Rental/Buying Agent [discord]: finebrandy </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
